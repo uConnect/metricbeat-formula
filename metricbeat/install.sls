@@ -2,5 +2,5 @@ include:
   - metricbeat.repo
 
 install Metricbeat package:
-  pkg.installed:
+  pkg.latest:
     - name: metricbeat
